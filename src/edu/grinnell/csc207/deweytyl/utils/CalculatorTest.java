@@ -9,7 +9,9 @@ import org.junit.Test;
 public class CalculatorTest {
 
 	@Test
-	public void eval0Test() {
+	public void 
+	eval0Test() 
+	{
 		assertEquals (BigInteger.valueOf (0), Calculator.eval0 ("0"));
 		assertEquals (BigInteger.valueOf (2), Calculator.eval0 ("1 + 1"));
 		assertEquals (BigInteger.valueOf (4), Calculator.eval0 ("1 + 2 + 1"));

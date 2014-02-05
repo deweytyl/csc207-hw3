@@ -18,7 +18,9 @@ public class Calculator {
 	 * Time: ~1h
 	 */
 
-	public static BigInteger eval0(String expression) {
+	public static BigInteger 
+	eval0(String expression) 
+	{
 		String[] expressionArray = expression.split(" ");
 		BigInteger result = new BigInteger("0");
 

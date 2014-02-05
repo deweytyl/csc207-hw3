@@ -4,7 +4,8 @@ import java.util.ArrayList;
 
 public class StringUtils {
 
-	public static String[] splitAt(String str, char ch)
+	public static String[] 
+	splitAt(String str, char ch)
 	{
 		/**
 		 * Start each new substring with an empty string, then append what you

@@ -7,7 +7,9 @@ import org.junit.Test;
 public class StringUtilsTest {
 
 	@Test
-	public void splitAtTest() {
+	public void 
+	splitAtTest() 
+	{
 		assertArrayEquals(new String[] { "a", "b", "c" },
 				StringUtils.splitAt("a:b:c", ':'));
 		assertArrayEquals(new String[] { "a", "b", "c" },
