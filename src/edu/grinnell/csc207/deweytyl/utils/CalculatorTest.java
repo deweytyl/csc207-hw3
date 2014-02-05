@@ -14,6 +14,6 @@ public class CalculatorTest {
 		assertEquals (BigInteger.valueOf (2), Calculator.eval0 ("1 + 1"));
 		assertEquals (BigInteger.valueOf (4), Calculator.eval0 ("1 + 2 + 1"));
 		assertEquals (BigInteger.valueOf (9), Calculator.eval0 ("1 + 2 * 3"));
-	}
+	} // eval0Test()
 
 }

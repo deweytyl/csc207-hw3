@@ -45,6 +45,5 @@ public class Calculator {
 
 		return result;
 	} // eval10 (String)
-
 	// Use String.split ();
-}
+} // Calculator
